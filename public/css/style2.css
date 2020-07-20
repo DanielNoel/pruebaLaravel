@@ -1,0 +1,29 @@
+/*aplicando media queri para redes */
+
+@media screen and (min-width:200px) and (max-width:1000px) {
+
+    .social-header {
+        margin-top: 00px;
+        display: block;
+        padding-top: 10px;
+        padding-bottom: 6px;
+        align-content: center;
+    }
+}
+
+#mg {
+    adding-top: 10px;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    flex-direction: column;
+    text-align:center;
+    float: right;
+    position: relative;
+}
+
+ body{
+            background-image: url(../img/guitar0.jpg);
+            background-size: 100%;
+        }
+

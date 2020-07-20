@@ -1,0 +1,35 @@
+
+/* -- Barra de navegación -- */
+#menu-principal{
+    border-radius: 0;
+    background-color:#ff3d00 ;
+    border-color: #7d7fb2;
+}
+
+#menu-principal a{
+    color:white;
+}
+
+#menu-principal li:hover{
+    background-color:#ff8a80;
+}
+
+#menu-principal li.activo{
+    background-color: #ff3d00 ;
+}
+
+
+@media (min-width: 768px){
+    .navbar-nav {
+        margin: 0 auto;
+        display: table;
+        table-layout: auto;
+        float: none;
+        width: 100%;
+    }
+    .navbar-nav>li {
+        display: table-cell;
+        float: none;
+        text-align: center;
+    }
+}
